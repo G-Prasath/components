@@ -11,7 +11,7 @@ const Service = () => {
       {/* <TableUnit/> */}
       <Applications/>
       {/* <Unit/> */}
-      <Acciories/>
+      {/* <Acciories/> */}
     </div>
   )
 }

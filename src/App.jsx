@@ -4,6 +4,7 @@ import Spliting from './Service/Spliting'
 import Benifites from './Service/Benifites'
 import Banner from './Service/Banner'
 import PebForm from './peb/PebForm'
+import WhyChoose from './peb/WhyChoose'
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <Spliting/>
       <Benifites/>
       <PebForm/>
+      <WhyChoose/>
     </div>
   )
 }

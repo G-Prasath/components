@@ -1,6 +1,6 @@
 import React from "react";
 
-const Banner = ({imgUrl, title}) => {
+const Banner = ({ imgUrl, title }) => {
   return (
     <div>
       <div className="relative lg:h-screen w-full aspect-video">
@@ -11,9 +11,18 @@ const Banner = ({imgUrl, title}) => {
         />
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="absolute inset-0 flex items-center justify-center p-20 w-full">
-          <h1 className="text-4xl text-white font-bold my-3 w-1/2">About Us</h1>
+          <div className="w-full">
+            <h1 className="text-4xl text-white font-bold my-3 w-1/2">
+              About Us
+            </h1>
+          </div>
           <div className="w-1/2 h-auto">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, autem sunt? Esse molestias dicta reiciendis, non excepturi quos dolores voluptatibus deserunt vitae recusandae animi tempore provident aliquid, nostrum est repellat?</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa,
+              autem sunt? Esse molestias dicta reiciendis, non excepturi quos
+              dolores voluptatibus deserunt vitae recusandae animi tempore
+              provident aliquid, nostrum est repellat?
+            </p>
           </div>
         </div>
       </div>
