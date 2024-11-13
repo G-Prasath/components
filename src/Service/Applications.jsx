@@ -28,7 +28,7 @@ const Applications = () => {
     },
   ];
   return (
-    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-2 gap-y-2 w-full items-center justify-center sm:px-20">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-2 gap-y-2 w-full items-center justify-center sm:px-20 mt-20">
       {App.map((item, index) => (
         <div key={index} className="group relative my-10 flex w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg border-2 border-[#3d7588]">
           <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">

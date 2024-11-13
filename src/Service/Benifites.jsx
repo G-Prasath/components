@@ -11,7 +11,7 @@ const Benifites = () => {
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 p-10">
       {data.map((item, index) => (
-        <div className="card relative bg-green-700 w-full max-w-[500px] min-h-[200px] rounded-xl p-8 pt-24 text-white">
+        <div key={index} className="card relative bg-green-700 w-full max-w-[500px] min-h-[200px] rounded-xl p-8 pt-24 text-white">
           <div
             className="index absolute top-0 left-0 w-20 aspect-square bg-lightgreen rounded-br-[35%]"
             style={{ backgroundColor: "lightgreen" }}
