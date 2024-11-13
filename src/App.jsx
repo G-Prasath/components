@@ -5,6 +5,7 @@ import Benifites from './Service/Benifites'
 import Banner from './Service/Banner'
 import PebForm from './peb/PebForm'
 import WhyChoose from './peb/WhyChoose'
+import SignupSection from './peb/SignupSection'
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
       <Benifites/>
       <PebForm/>
       <WhyChoose/>
+      <SignupSection/>
     </div>
   )
 }
