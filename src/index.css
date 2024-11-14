@@ -6,3 +6,12 @@
 body, html{
     overflow-x: hidden;
 }
+
+/* .app-polygon-clip {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transition: clip-path 0.3s;
+  }
+  
+  .app-polygon-clip:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  } */
