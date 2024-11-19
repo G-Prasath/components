@@ -8,6 +8,14 @@ import WhyChoose from './peb/WhyChoose'
 import SignupSection from './peb/SignupSection'
 import ServiceWhyChoose from './Service/ServiceWhyChoose'
 import TestApp from './Service/TestApp'
+import Profile from './career/Profile'
+import Orders from './career/orders'
+import Flows from './career/Flows'
+import Batges from './career/Batges'
+import Statistics from './career/Statistics'
+import AddressCard from './career/AddressCard'
+import CareerBenefits from './career/CareerBenefits'
+import ContactForm from './career/ContactForm'
 
 const App = () => {
 
@@ -22,6 +30,14 @@ const App = () => {
       <SignupSection/>
       <ServiceWhyChoose/>
       <TestApp/>
+      <Profile/>
+      <Orders/>
+      <Batges/>
+      <Flows/>
+      <Statistics/>
+      <AddressCard/>
+      <CareerBenefits/>
+      <ContactForm/>
     </div>
   )
 }
